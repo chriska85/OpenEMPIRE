@@ -284,10 +284,10 @@ def generate_random_scenario(filepath, tab_file_path, scenarios, seasons,
                 format_str="%Y-%m-%dT%H:%M")
             hydrorunoftheriver_data_year = filter_sample_year(
                 data=hydrorunoftheriver_data, sample_year=sample_year_hydro,
-                format_str="%d/%m/%Y %H:%M")
+                format_str="%Y-%m-%dT%H:%M")
             hydroseasonal_data_year = filter_sample_year(
                 data=hydroseasonal_data, sample_year=sample_year_hydro,
-                format_str="%d/%m/%Y %H:%M")
+                format_str="%Y-%m-%dT%H:%M")
             electricload_data_year = filter_sample_year(
                 data=electricload_data, sample_year=sample_year_load,
 		format_str="%Y-%m-%d %H:%M")
