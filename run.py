@@ -8,8 +8,8 @@ from datetime import datetime
 ########
 
 USE_TEMP_DIR = False #True
-temp_dir = '/panfs/nas-0-0.local/work/stianbac'
-version = 'europe_v50'
+temp_dir = '/global/storage/chriska/OpenEMPIRE/temp_dir'
+version = 'europe_v50_chriska'
 NoOfPeriods = 8
 NoOfScenarios = 3
 NoOfRegSeason = 4

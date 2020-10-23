@@ -1,5 +1,8 @@
 *.tab
+*~$*
 
 Results/
 
 __pycache__/
+
+Data\ handler/europe_v50_chriska/
